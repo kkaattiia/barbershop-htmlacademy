@@ -52,15 +52,15 @@
                     <p class="news_text">в нашей команде пополнение, борис "бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
                         <time pubdate datetime="2018-01-18">18января</time></li>
                     </ul>
-                    <a href="#"><button class="news_btn" type="button" value="все новости">все новости</button></a>
+                    <a href="#"><button class="news_btn" type="button">все новости</button></a>
         </section>
         <section class="fotogallery">
            <h2 class="fotogallery-title">фотогалерея</h2>
            <div class="slider">
                <img href="#" alt="img-fotogallery">
            </div>
-           <a class="slider_btn"><button class="slider_back-btn" type="button" value="back">назад</button></a>
-           <a class="slider_btn"><button class="slider_forth-btn" type="button" value="forth">вперед</button></a>   
+           <a class="slider_btn"><button class="slider_back-btn" type="button" >назад</button></a>
+           <a class="slider_btn"><button class="slider_forth-btn" type="button" >вперед</button></a>   
         </section>
         <section class="contacts">
         <h2 class="contacts_title">контактная информация</h2>
@@ -71,7 +71,21 @@
         <a class="contacts_link"><button class="contacts_btn" type="button"> как проехать</button></a>
           <a class="contacts_link"><button class="contacts_btn" type="button">обратная связь</button></a>
         </section>
-        <
+        <section class="booking">
+            <h2 class="booking_title">записаться</h2>
+            <p class=booking_text>укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+            <form class="booking_form">
+                <label for="date">дата</label>
+                    <input class="booking_fild" type="text" name="date" value="08.10.2017">
+                <label for="time">время</label>
+                    <input class="booking_fild"  type="text" name="time" value="10:00">
+                <label for="name">ваше имя</label>
+                    <input class="booking_fild" type="text" name="name" value="борода">
+                <label for="phone">телефон</label>
+                    <input class="booking_fild" type="text" name="phone" value="+7 123 456-78-90">
+               <input class="booking_submit-btn" type="submit" value="отправить">
+            </form>
+        </section>
     </main>
     
     <footer class="footer"></footer>
