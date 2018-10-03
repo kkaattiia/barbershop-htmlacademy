@@ -5,99 +5,130 @@
     <title>Barbershop</title>
 </head>
 <body>
+  
    <header class="main-header">
        <nav class="main-navigation">
-           <ul class="sait-navigation">
-               <li class="nav_list"><a class="information" href="#">информация</a></li>
-               <li class="nav_list"><a class="news" href="#" >новости</a></li>
-               <li class="nav_list"><a class="price" href="#" >прайс-лист</a></li>
-               <li class="nav_list"><a class="shop" href="#" >магазин</a></li>
-               <li class="nav_list"><a class="contacts" href="#" >контакты</a></li>
+           <ul class="site-navigation">
+               <li><a href="info.html">информация</a></li>
+               <li><a href="news.html" >новости</a></li>
+               <li><a href="price.html" >прайс-лист</a></li>
+               <li><a href="catalog.html" >магазин</a></li>
+               <li><a href="contacts.html" >контакты</a></li>
            </ul>
        
        <ul class="user-navigation">
            <li class="user-navigation_list"><a class="entrance" href="#">Вход</a></li>
        </ul>
-       <h1 class="tittle visuali-hidden">barbershop borodinski</h1>
-       <img src="#" class="logotip" alt="logotip-borodinski" width="371" height="155">
+       
+       <a class="logotip">
+       <img src="#" class="logotip" alt="логотип барбершопа бородинскиий" width="371" height="155">
+       </a>
        </nav>
    </header>
     
     <main class="main">
+       
+       <h1 class="visually-hidden">барбершоп "бородинский"</h1>
+       
         <section class="advantages">
-            <h2 class="advantages_title visuali-hidden">advantages</h2> 
-            <ul class="advantages_list">
-                <li class="advantages_item">
-                    <h3 class="title_advantage_item">быстро</h3>
-                    <p class="text_advantage_item">мы делаемсвою работу быстро! двачаса<br>
-                    пролетят незаметно и вы - счастливый<br>обладатель стильной стрижки-минутки!</p>
+            <h2 class="visually-hidden">предложения</h2> 
+            <ul class="advantages-list">
+                <li class="advantages-item">
+                    <h3>быстро</h3>
+                    <p>мы делаемсвою работу быстро! два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
                 </li>
-                <li class="advantages_item">
-                    <h3 class="title_advantage_item">круто</h3>
-                    <p class="text_advantage_item">забудьте, как вы стриглись раньше.<br>мы сделаем из вас звезду футбола или кино!<br>во всяком случае внешне!</p>
+                <li class="advantages-item">
+                    <h3>круто</h3>
+                    <p>забудьте, как вы стриглись раньше. мы сделаем из вас звезду футбола или кино! во всяком случае внешне!</p>
                 </li>
-                <li class="advantages_item">
-                    <h3 class="title_advantage_item">дорого</h3>
-                    <p class="text_advantage_item">наши мастера - профессионалы своего дела и<br>не могут стоить дешево. к тому же, разве цена<br>не дает определенный статус?</p>
+                <li class="advantages-item">
+                    <h3>дорого</h3>
+                    <p>наши мастера - профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определенный статус?</p>
                 </li>
             </ul>
         </section>
+        
         <section class="news">
             <h2 class="news-title">новости</h2>
-                <ul class="news_list">
-                    <li class="news_item">
-                    <p class="news_text">нам наконец завезли ягермейстер! теперь вы можете пропустить стаканчик во время стрижки</p>
+                <ul class="news-list">
+                    <li class="news-item">
+                    <p class="news-text">нам наконец завезли ягермейстер! теперь вы можете пропустить стаканчик во время стрижки</p>
                     <time datetime="2018-01-11">11 января</time></li>
-                    <li class="news_item">
-                    <p class="news_text">в нашей команде пополнение, борис "бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+                    <li class="news-item">
+                    <p class="news-text">в нашей команде пополнение, борис "бритва" стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
                         <time datetime="2018-01-18">18января</time></li>
                     </ul>
-                    <a class="allnews" href="#">все новости</a>
+                    <a class="button" href="news.html">все новости</a>
         </section>
+        
         <section class="fotogallery">
-           <h2 class="fotogallery-title">фотогалерея</h2>
+           <h2>фотогалерея</h2>
+           
            <div class="slider">
-               <img src="#" alt="img-fotogallery">
+               <a href="#"><img src="#" alt="интерьер" width="286" height="164"></a>
            </div>
+           
+           <!--как разметить кнопки вперед назад-->
+           
           <button class="slider_back-btn" type="button">назад</button>
            <button class="slider_forth-btn" type="button" >вперед</button>   
         </section>
+        
         <section class="contacts">
-        <h2 class="contacts_title">контактная информация</h2>
-        <p class="contacts_info">барбершоп "бородинский"<br> адрес: г.санкт-петербург, б.конюшенная, д.19/8<br> телефон: +7 (495) 666-02-66
+        <h2>контактная информация</h2>
+        <p>
+        барбершоп "бородинский"<br>
+        адрес: г.санкт-петербург, б.конюшенная, д.19/8<br> телефон: +7 (495) 666-02-66
         </p>
-        <p class="contacts_working-hourse">время работы:<br>    пн-пт: с 10:00 до 22:00<br>
+        <p>
+        время работы:<br>    пн-пт: с 10:00 до 22:00<br>
         сб-вс: с 10:00 до 19:00</p>
-        <button class="contacts_btn" type="button"> как проехать</button>
-         <button class="contacts_btn" type="button">обратная связь</button>
+        <a class="contacts-btn button"> как проехать</a>
+        <a class="contacts-btn button">обратная связь</a>
         </section>
+        
         <section class="booking">
-            <h2 class="booking_title">записаться</h2>
-            <p class=booking_text>укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-            <form class="booking_form">
+            <h2>записаться</h2>
+            <p class=booking-ext>укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+            <form class="booking-form" action="#" method="post">
+              
+               <!--обернуть ли поля формы в P?-->
+               
                 <label for="date">дата</label>
-                    <input id="date" class="booking_fild" type="text" name="date" value="08.10.2017">
+                    <input id="date" class="booking-fild" type="text" name="date" placeholder="08.10.2017" value="">
                 <label for="time">время</label>
-                    <input id="time" class="booking_fild"  type="text" name="time" value="10:00">
+                    <input id="time" class="booking-fild"  type="text" name="time" placeholder="10:00" value="">
                 <label for="name">ваше имя</label>
-                    <input id="name" class="booking_fild" type="text" name="name" value="борода">
+                    <input id="name" class="booking-fild" type="text" name="name" placeholder="борода" value="">
                 <label for="phone">телефон</label>
-                    <input id="phone" class="booking_fild" type="text" name="phone" value="+7 123 456-78-90">
-               <input class="booking_submit-btn" type="submit" value="отправить">
+                    <input id="phone" class="booking-fild" type="tel" name="phone" placeholder="+7 123 456-78-90" value="">
+               <button class="button" type="submit">отправить</button>
             </form>
         </section>
     </main>
     
-    <footer class="footer">
-        <p class="footer_information">барбершоп "бородинский"<br> адрес: г.санкт-петербург, б.конюшенная, д.19/8<br>как нас найти?<br>телефон: +7 (495) 666-02-66</p>
-        <span>давайте дружить!</span>
-        <ul class="footer_socialnetwork">
+    <footer class="main-footer">
+        <p class="footer_information">
+        барбершоп "бородинский"<br>
+         адрес: г.санкт-петербург, б.конюшенная, д.19/8<br>
+         <a href="map.html">как нас найти?</a><br>
+         телефон: +7 (495) 666-02-66
+        </p>
+        <div class="footer-social">
+        <b>давайте дружить!</b>
+        <ul class="footer_socialnetwork">  
+           
+           <!-- нужен ли img в ссылках соцсетей. пример htmlacademy второй урок разметка-->
+           
             <li class='socialnetwork_item'><a class="socialnetwork_link"><img class="socialnetwork_img" src="#" alt="vk-icon"> </a></li>
             <li class='socialnetwork_item'><a class="socialnetwork_link"><img class="socialnetwork_img" src="#" alt="fb-icon"> </a></li>
             <li class='socialnetwork_item'><a class="socialnetwork_link"><img class="socialnetwork_img" src="#" alt="instagram-icon"></a></li>
         </ul>
-        <span class="copyrait">разработано:</span>
-        <a  class="copyrait" href="#"> HTML ACADEMY</a>
+        </div>
+        <p class="footer-copyright">
+        <b class="copyrait">разработано:</b>
+        <a  class="button" href="#"> HTML ACADEMY</a>
+        </p>
     </footer>
    
 </body>
