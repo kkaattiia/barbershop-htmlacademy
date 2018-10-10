@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbershop</title>
+</head>
+<body>
+  
+   <header class="main-header">
+       <nav class="main-navigation">
+           <a class="logotip" href="index.html">
+           <img src="img/logo.svg" class="logotip" alt="логотип барбершопа бородинскиий" width="150" height="23">
+           </a>
+           <ul class="site-navigation">
+               <li><a href="info.html">информация</a></li>
+               <li><a href="news.html">новости</a></li>
+               <li><a href="price.html">прайс-лист</a></li>
+               <li><a href="catalog.html">магазин</a></li>
+               <li><a href="contacts.html">контакты</a></li>
+           </ul>
+       <ul class="user-navigation">
+           <li class="user-navigation_list"><a class="entrance" href="#">Вход</a></li>
+       </ul>
+       </nav>
+   </header>
+    <main class="container">
+        <h1 class="page-tittle">набор для путешествий "baxter of california"</h1>
+        <ul class="breadcrumbs">
+            <li><a href="index.html">главная</a></li>
+            <li><a href="catalog.html">магазин</a></li>
+            <li><a href="#">средства для ухода</a></li>
+            <li class="breadcrumbs-curent">"baxter of california"</li>
+        </ul>
+        <section class="catalog-image">
+           <h2 class="visually-hidden">изображение товара</h2>
+            <p>
+                <img class="product-image" src="img/product-1" width="486" height="524" alt="изображение набор для путешествий baxter of california">
+            </p>
+                <ul class="img-list">
+                    <li class="img-item">
+                        <img src="img/product-1.1" alt="изображение набор для путешествий baxter of california" width="140" height="149">
+                    </li>
+                     <li class="img-item">
+                        <img src="img/product-1.2" alt="изображение набор для путешествий baxter of california" width="140" height="149">
+                    </li>
+                     <li class="img-item">
+                        <img src="img/product-1.3" alt="изображение набор для путешествий baxter of california" width="140" height="149">
+                    </li>
+                </ul>
+            
+        </section>
+        
+        <section class="product-description">
+            <h2 class="visually-hidden">описание</h2>
+            <p>есть в наличии</p>
+            <p>артикул: DEXTER-AE></p>
+            <p>travel kit -  необходимый аксесуар во время путешествия. В акуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыхаЖ средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. набор также может стать отличным подарком</p>
+            <p>
+                <b>2900 &#8381;</b>
+                <a class="button" href="#">купить</a>
+            </p>
+            <h3>в набор входят:</h3>
+            <ul class="scroll-list">
+                <li>средство для умывания (50мл)</li>
+                <li>увлажняющий крем (50мл)</li>
+                <li>крем для бритья (50мл)</li>
+                <li>крем после бритья, шампунь (50мл)</li>
+                <li>удобная кожанная косметичка</li>
+            </ul>
+        </section>
+      </main>
+    
+    <footer class="main-footer">
+        <p class="footer_information">
+        барбершоп "бородинский"<br>
+         адрес: г.санкт-петербург, б.конюшенная, д.19/8<br>
+         <a href="map.html">как нас найти?</a><br>
+         телефон: +7 (495) 666-02-66
+        </p>
+        <div class="footer-social">
+        <b>давайте дружить!</b>
+        <ul class="footer_socialnetwork">  
+           
+           <!-- нужен ли img в ссылках соцсетей. пример htmlacademy второй урок разметка-->
+           
+            <li class='socialnetwork_item'><a class="socialnetwork_link"><img class="socialnetwork_img" src="#" alt="vk-icon"> </a></li>
+            <li class='socialnetwork_item'><a class="socialnetwork_link"><img class="socialnetwork_img" src="#" alt="fb-icon"> </a></li>
+            <li class='socialnetwork_item'><a class="socialnetwork_link"><img class="socialnetwork_img" src="#" alt="instagram-icon"></a></li>
+        </ul>
+        </div>
+        <p class="footer-copyright">
+        <b class="copyrait">разработано:</b>
+        <a  class="button" href="#"> HTML ACADEMY</a>
+        </p>
+    </footer>
+    
+     <section class="modal modal-login">
+        <h2>личный кабинет</h2>
+        <p>введите пожалуйста свой логин и пароль</p>
+        <form class="login-form" action="#" method="post">
+            <p>
+                <input class="login-user" type="text" name="login" placeholder="логин">
+            </p>
+            <p>
+                <input class="password-user" type="password" name="password" placeholder="пароль">
+            </p>
+            <p class="login-password-info">
+                <input type="checkbox" name="remember" class="visually-hidden">
+                <a class="restore" href="#">я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">войти</button>
+        </form>
+        <span class="modal-close">x</span>
+    </section>
+    </body>
+</html>
